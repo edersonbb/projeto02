@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 56px;
+    padding: 10px;
+    position: relative;
+    gap: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item-head{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.search{
+    margin-left: 356px;
+    margin-right: 356px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    background-image: url("Imagens/Avatar.png");
+
+}
+
+
+h2{
+    font-family: Roboto;
+    font-size: 16px;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.06px;
+}
+
+.main-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+  }
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
